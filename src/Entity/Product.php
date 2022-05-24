@@ -36,7 +36,7 @@ class Product
     #[ORM\Column(type: 'string', length: 255)]
     private $label;
 
-    #[ORM\Column(type: 'string', length: 1000)]
+    #[ORM\Column(type: 'string', length: 10000)]
     private $description;
 
     #[ORM\Column(type: 'datetime')]
